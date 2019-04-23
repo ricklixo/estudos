@@ -12,17 +12,17 @@ while continuar == 'S':
     num1 = int(input('Digite o primeiro número: '))
     num2 = int(input('Digite o segundo número: '))
 
-    def soma(num1, num2):
-        return num1 + num2
+    def soma(x, y):
+        return x + y
 
-    def subtracao(num1, num2):
-        return num1 - num2
+    def subtracao(x, y):
+        return x - y
 
-    def divisao(num1, num2):
-        return num1 // num2
+    def divisao(x, y):
+        return x // y
 
-    def multiplic(num1, num2):
-        return num1 * num2
+    def multiplic(x, y):
+        return x * y
 
     if opcao == 1:
         print('A Soma entre os números {} e {} é igual a {}'.format(num1, num2, soma(num1, num2)))
@@ -34,5 +34,6 @@ while continuar == 'S':
         print('{} dividido por {} é igual a {}'.format(num1, num2, divisao(num1, num2)))
     else:
         print('Opção inválida.')
+
     continuar = str(input('Deseja Continuar? [S/N]')).upper()
 

@@ -1,0 +1,2 @@
+Patrick está testando gravação de arquivos em Python
+Acrescentando conteúdo
